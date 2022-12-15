@@ -1,5 +1,9 @@
-var ms = require('minestat');
-ms.init('minecraft.frag.land', 25565, function(result)
+const MineStat = require("minestat");
+
+// Example with address, port, and timeout:
+//var ms = new MineStat("minecraft.frag.land", 25565, 5, function(result)
+
+var ms = new MineStat("minecraft.frag.land", function(result)
 {
   console.log("Minecraft server status of " + ms.address + " on port " + ms.port + ":");
   if(ms.online)
