@@ -1,6 +1,6 @@
 {
   "name": "minestat",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "A Minecraft server status checker",
   "main": "minestat.js",
   "scripts": {

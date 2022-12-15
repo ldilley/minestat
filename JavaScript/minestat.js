@@ -18,7 +18,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-const VERSION = "1.0.3";        // MineStat version
+const VERSION = "2.0.0";        // MineStat version
 const NUM_FIELDS = 6;           // number of values expected from server
 const NUM_FIELDS_BETA = 3;      // number of values expected from a 1.8b/1.3 server
 const DEFAULT_TCP_PORT = 25565; // default TCP port
