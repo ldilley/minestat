@@ -26,10 +26,10 @@ const DEFAULT_TIMEOUT = 5;      // default TCP timeout in seconds
 
 const StatusCode =
 {
-	SUCCESS: "Sucess",  // connection was successful and the response data was parsed without problems
-	CONNFAIL: "Fail",   // connection failed due to an unknown hostname or incorrect port number
-	TIMEOUT: "Timeout", // connection timed out -- either the server is overloaded or it dropped our packets
-	UNKNOWN: "Unknown"  // connection was successful, but the response data could not be properly parsed
+  SUCCESS: "Sucess",  // connection was successful and the response data was parsed without problems
+  CONNFAIL: "Fail",   // connection failed due to an unknown hostname or incorrect port number
+  TIMEOUT: "Timeout", // connection timed out -- either the server is overloaded or it dropped our packets
+  UNKNOWN: "Unknown"  // connection was successful, but the response data could not be properly parsed
 }
 
 const RequestType =
